@@ -40,7 +40,7 @@ const CategoryBox = ({ label, icon: Icon, selected }: CategoryBoxProps) => {
         }, { skipNull: true });
 
         router.push(url)
-    }, [label, params, router])
+    }, [label, params, router, pathname])
 
   return (
     <div  onClick={handleClick} className={`
