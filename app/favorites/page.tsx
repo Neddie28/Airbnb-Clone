@@ -3,7 +3,7 @@ import ClientOnly from "../components/ClientOnly";
 
 import getFavoriteListings from "../actions/getFavoriteListings";
 
-
+//getting current user
 import getCurrentUser from "@/app/actions/getCurrentUser";
 import FavoritesClient from "./FavoritesClient";
 
