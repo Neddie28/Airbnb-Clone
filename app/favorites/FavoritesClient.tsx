@@ -29,6 +29,7 @@ const FavoritesClient = ({ listings, currentUser }: FavoritesClientProps) => {
                 2xl:grid-cols-6
             "
         >
+            //mapping through the listings
             {listings.map((listing) => (
                 <ListingCard 
                     currentUser={currentUser}
