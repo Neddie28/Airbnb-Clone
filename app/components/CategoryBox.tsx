@@ -28,11 +28,9 @@ const CategoryBox = ({ label, icon: Icon, selected }: CategoryBoxProps) => {
             category: label
         }
         
-
         if(params?.get('category') === label) {
             delete updatedQuery.category;
         }
-
 
         const url = qs.stringifyUrl({
             url: pathname || "",
