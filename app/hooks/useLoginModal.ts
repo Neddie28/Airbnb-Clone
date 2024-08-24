@@ -1,4 +1,5 @@
 import { create } from "zustand";
+
 interface loginModalStore {
   isOpen: boolean;
   onOpen: () => void;
